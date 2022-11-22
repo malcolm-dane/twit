@@ -1,0 +1,21 @@
+{
+  "name": "sign_in_book",
+  "version": "1.0.0",
+  "description": "bad twitter",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "root",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  }
+}
